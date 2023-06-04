@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+div {
+  margin: 0 auto;
+  width: 45%;
+  min-width: 40rem;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+button {
+  font-family: 'Staatliches', cursive;
+  font-size: calc(1rem + 1.1vw);
+  width: 35%;
+  min-width: 15rem;
+  background-color: aliceblue;
+  border: .4rem solid grey;
+  border-radius: .5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+button:first-child {
+  margin-right: 3rem;
+}
+
+button:hover {
+  background-color: #fff;
+  border: .4rem solid rgb(156, 155, 155);
+}
+
+@media screen and (max-width: 40rem) {
+  button {
+    font-size: calc(1rem + 1.8vw);
+  }
+}
